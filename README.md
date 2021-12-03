@@ -38,6 +38,13 @@ Rustの値渡しはメモリのコピーを伴う値渡しである。
 $ rustc --emit=llvm-ir -C opt-level=0 value.rs
 ```
 
+なお、Rustのバージョンは以下の通りである。
+
+```bash
+$ rustc -V
+rustc 1.58.0-nightly (b416e3892 2021-11-13)
+```
+
 ## 結果
 
 呼び出し側
